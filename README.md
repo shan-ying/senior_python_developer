@@ -25,7 +25,7 @@ special_freature 輸入一個int list, 回傳偶數且大於10的元素，並由
 手機二 taiwan phone:
 price=20, camera_count=1, screen_size=3
 special_freature
-輸入一個數字自動計算Fibonacci斐波那契數列的運算結果，並取最後二位(十位為 x、個位為 y)數字進行 p x 取 y (排序組合) 計算。
+輸入一個數字自動計算 Fibonacci 斐波那契數列的運算結果，並取最後二位(十位為 x、個位為 y)數字進行 p x 取 y (排序組合) 計算。
 例如: 輸入 10 回傳 120
 
 ```
@@ -46,21 +46,21 @@ special_freature
 > 請設計一個 CsvHanlder class，當它被初始化時，會偵測相同目錄下是否存在一個 ilovecoffee 資料夾，若無則建立，有則略過。賦予此 class 一個 create_csv() method, 當被呼叫時，會隨機寫入 500 筆客戶資料至 /ilovecoffee/customers.csv，結構如下:
 ```
 customer_id,customer_name, customer_mobile, frequency
-"y88xTa0F", "tom.y88xTa0F","+886938766119", "4"
-"uYt49xAd", "peter.uYt49xAd","+886938922440", "6"
-"p9g5As5k", "hank.p9g5As5k","+886918300227", "1"
+"y88xTa0F", "tom.y88xTa0F", "+886938766119", "4"
+"uYt49xAd", "peter.uYt49xAd", "+886938922440", "6"
+"p9g5As5k", "hank.p9g5As5k", "+886918300227", "1"
 .....
 ````
 
 ##### customer_id:
-長度8, 由數字[0-9], 大寫[A-Z]，小寫[a-z]隨機組成，但開頭不可為數字
+長度 8, 由數字 [0-9], 大寫 [A-Z]，小寫 [a-z] 隨機組成，但開頭不可為數字
 
 ##### customer_name: 
-隨意用10個英文名字建立一組list: 如 ['tom','peter','hank'....]
-將customer_id與隨機從 name list 中取出的一個元素進行合併，例如產出"tom.y88xTa"
+隨意用 10 個英文名字建立一組list: 如 ['tom','peter','hank'....]
+將 customer_id 與隨機從 name list 中取出的一個元素進行合併，例如產出"tom.y88xTa"
 
 ##### customer_mobile
-隨機產生一個+886開頭的台灣電話號碼，若新產出的電話號碼有重複，則需要重新產生
+隨機產生一個 +886 開頭的台灣電話號碼，若新產出的電話號碼有重複，則需要重新產生
 
 ##### frequency
 從 [0-20] 中隨機進行選擇
