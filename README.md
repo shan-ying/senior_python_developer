@@ -26,7 +26,7 @@ special_freature 輸入一個int list, 回傳偶數且大於10的元素，並由
 price=20, camera_count=1, screen_size=3
 special_freature
 輸入一個數字自動計算Fibonacci斐波那契數列的運算結果，並取最後二位(十位為 x、個位為 y)數字進行 p x 取 y (排序組合) 計算。
-例如: ---
+例如: 輸入 10 回傳 120
 
 ```
 
@@ -46,9 +46,9 @@ special_freature
 > 請設計一個 CsvHanlder class，當它被初始化時，會偵測相同目錄下是否存在一個 ilovecoffee 資料夾，若無則建立，有則略過。賦予此 class 一個 create_csv() method, 當被呼叫時，會隨機寫入 500 筆客戶資料至 /ilovecoffee/customers.csv，結構如下:
 ```
 customer_id,customer_name, customer_mobile, frequency
-"y88xTa", "tom.y88xTa","+886938766119", "4"
-"uYt49x", "peter.uYt49x","+886938922440", "6"
-"p9g5As", "hank.p9g5As","+886918300227", "1"
+"y88xTa0F", "tom.y88xTa0F","+886938766119", "4"
+"uYt49xAd", "peter.uYt49xAd","+886938922440", "6"
+"p9g5As5k", "hank.p9g5As5k","+886918300227", "1"
 .....
 ````
 
